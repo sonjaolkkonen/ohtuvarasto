@@ -80,7 +80,7 @@ class TestVarastoTilavuusPienempi(unittest.TestCase):
         self.varasto = Varasto(4, 5)
 
     def test_konstruktori_luo_oikean_varaston(self):
-        self.assertAlmostEqual(self.varasto.saldo, 6)
+        self.assertAlmostEqual(self.varasto.saldo, 4)
 
 
 
