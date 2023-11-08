@@ -27,6 +27,6 @@ jobs:
       - name: Coverage report to Codecov
         run: bash <(curl -s https://codecov.io/bash)
       - name: Install pylint
-        run: pop install pylint
+        run: pip install pylint
       - name: Run pylint
         run: pylint src
